@@ -1,0 +1,24 @@
+.top_1{
+    height:100px;
+    width:100%;
+    border:none;
+}
+.top_1 img{
+    width:200px;
+    height:60px;
+    position: relative;
+    margin-top:5px;
+}
+.daohang{
+    float:right;
+    margin-top:23px;
+}
+.top_2{
+    background:#fff;
+}
+.dh01 li{
+    font-size:16px;
+}
+.banner img{
+    width:100%;
+}

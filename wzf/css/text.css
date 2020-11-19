@@ -1,0 +1,67 @@
+.top_1{
+    height:100px;
+    width:100%;
+    border:none;
+}
+.top_1 img{
+    width:200px;
+    height:60px;
+    position: relative;
+    margin-top:5px;
+}
+.daohang{
+    float:right;
+    margin-top:23px;
+}
+.top_2{
+    background:#fff;
+}
+.dh01 li{
+    font-size:16px;
+}
+.banner img{
+    width:100%;
+}
+.dropdown-toggle{
+  background:none;
+  color: #333;
+}
+.footer{
+    width:100%;
+    height:100%;
+    background:#fbfbfb;
+    float:left;
+}
+.yqlj p{
+    font-size:25px;
+    color:#1f3f7b;
+    text-align: center;
+    font-weight: 600;
+    margin-top:10px;
+}
+.xy{
+    display:flex;
+    justify-content:space-around;
+    position: relative;
+    margin-top:30px;
+}
+.tupian{
+    text-align: center;
+}
+.bq{
+    float:left;
+    margin-top:30px;
+    margin-left:10px; 
+}
+.dlogo{
+    float:left;
+    margin-left:360px;
+    margin-top:50px;
+}
+#btn{
+    position:fixed;
+    right:20px;
+    bottom:30px;
+    background:none;
+    border:none;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../css/text.css" type="text/css" rel="stylesheet">
+    <link href="../bs/css/bootstrap.css" type="text/css" rel="stylesheet">
+    <script src="../jQuery3.5.1/jquery.js"></script>
+    <script src="../bs/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default" role="navigation" style="border:none;background:#fff">
+            <div class="container-fluid top_1" > 
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#example-navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="../img/logo.png"></a>
+            </div>
+            <div class="collapse navbar-collapse daohang" id="example-navbar-collapse">
+                <ul class="nav navbar-nav dh01">
+                    <li><a href="#">首頁</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            關於我們 <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">協會簡介</a></li>
+                            <li><a href="#">協會章程</a></li>
+                            <li><a href="#">組織架構</a></li>
+                        </ul>
+                    </li>
+                    <li class="hyzq"><a href="#">會員專區</a></li>
+                    <li><a href="#">協會動態</a></li>
+                    <li><a href="#">聯繫我們</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <div class="banner col-lg-12 col-sm-12 ">
+            <a href=""><img src="../img/banner01.png"></a>
+            <a href=""><img src="../img/banner02.png"></a>
+            <a href=""><img src="../img/banner03.png"></a>
+        </div>
+        <div class="footer">
+            <div class="yqlj"><p>友情連接</p></div>
+            <div class="xy hidden-xs hidden-sm">               
+                    <a href=""><img src="../img/daxue1.png "></a>
+                    <a href=""><img src="../img/daxue2.png"></a>
+                    <a href=""><img src="../img/daxue3.png"></a>
+                    <a href=""><img src="../img/daxue4.png"></a>
+                    <a href=""><img src="../img/daxue5.png"></a>
+                    <a href=""><img src="../img/daxue6.png"></a>
+                    <a href=""><img src="../img/daxue7.png"></a>
+                    <a href=""><img src="../img/daxue8.png"></a>
+            </div>
+            <div class="hidden-md hidden-lg">
+                <div class="tupian col-xs-12 col-sm-12"><a href=""><img src="../img/daxue1.png"></a></div>
+                <div class="tupian col-xs-12 col-sm-12"><a href=""><img src="../img/daxue2.png"></a></div>
+                <div class="tupian col-xs-12 col-sm-12"><a href=""><img src="../img/daxue3.png"></a></div>
+                <div class="tupian col-xs-12 col-sm-12"><a href=""><img src="../img/daxue4.png"></a></div>
+                <div class="tupian col-xs-12 col-sm-12"><a href=""><img src="../img/daxue5.png"></a></div>
+                <div class="tupian col-xs-12 col-sm-12"><a href=""><img src="../img/daxue6.png"></a></div>
+                <div class="tupian col-xs-12 col-sm-12"><a href=""><img src="../img/daxue7.png"></a></div>
+                <div class="tupian col-xs-12 col-sm-12"><a href=""><img src="../img/daxue8.png"></a></div>
+            </div>
+        </div>
+        <div class="bq">
+            <p>聯絡地址：香港北角英皇道75號聯合出版大廈9樓901室</p>
+            <span>E-mail：hkedu@hiedu.hk</span>
+            <h6>Contact Number：+852 21111616</h6>
+        </div>
+        <div class="dlogo hidden-xs hidden-sm hidden-md">
+            <img src="../img/logo.png">
+        </div>
+        <button id="btn"><span class="glyphicon glyphicon-menu-up"></span></button>
+    </div>
+</body>
+<script>
+    document.getElementById("btn").onclick=function(){
+    var i=setInterval(function(){
+            var t=document.documentElement.scrollTop;
+        if(t>0){
+            t-=20;
+            document.documentElement.scrollTop=t;
+        }else{
+            clearInterval(i);
+        }
+    },10)
+}
+</script>
+</html>
